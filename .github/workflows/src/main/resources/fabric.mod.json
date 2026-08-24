@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "endlock",
+  "version": "${version}",
+  "name": "End Lock",
+  "description": "Lock and unlock the End dimension with simple commands.",
+  "authors": ["Anonymous"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.endlock.EndLockMod"
+    ]
+  },
+  "mixins": [
+    "endlock.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
